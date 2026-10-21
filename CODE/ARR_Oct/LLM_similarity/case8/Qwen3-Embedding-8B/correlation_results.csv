@@ -1,0 +1,13 @@
+﻿case,model,context_type,calc_type,pearson_r,pearson_p,spearman_rho,spearman_p
+case8,Qwen3-Embedding-8B,流畅综合,GT,0.291883,0.004996,0.248668,0.017463
+case8,Qwen3-Embedding-8B,流畅综合,G,0.334155,0.001207,0.302142,0.003606
+case8,Qwen3-Embedding-8B,流畅综合,J,0.287148,0.005785,0.190307,0.070783
+case8,Qwen3-Embedding-8B,流畅综合,D,0.347071,0.000750,0.318545,0.002089
+case8,Qwen3-Embedding-8B,单独定义,GT,0.180200,0.087404,0.113574,0.283753
+case8,Qwen3-Embedding-8B,单独定义,G,-0.188589,0.073413,-0.179385,0.088868
+case8,Qwen3-Embedding-8B,单独定义,J,-0.122545,0.247185,-0.096756,0.361568
+case8,Qwen3-Embedding-8B,单独定义,D,0.023009,0.828606,0.162014,0.124955
+case8,Qwen3-Embedding-8B,简单综合,GT,0.380088,0.000202,0.345505,0.000796
+case8,Qwen3-Embedding-8B,简单综合,G,0.099573,0.347692,0.235416,0.024682
+case8,Qwen3-Embedding-8B,简单综合,J,0.113993,0.281971,0.159788,0.130294
+case8,Qwen3-Embedding-8B,简单综合,D,0.274580,0.008440,0.429235,0.000022

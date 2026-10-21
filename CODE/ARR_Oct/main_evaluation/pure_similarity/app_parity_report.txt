@@ -1,0 +1,35 @@
+PASS case1/Jaccard_only: 5 候选，功能 17，max|Δ|=4.963e-11
+PASS case1/Dice_only: 5 候选，功能 17，max|Δ|=4.963e-11
+PASS case2/Jaccard_only: 5 候选，功能 18，max|Δ|=4.960e-11
+PASS case2/Dice_only: 5 候选，功能 18，max|Δ|=4.960e-11
+FAIL case3/Jaccard_only: 5 候选，功能 34，max|Δ|=1.960e-01；deg_std: batch=0.8022459822 app=0.9683575078326074；deg_std: batch=0.8022459822 app=0.9982683969692435；deg_std: batch=0.8724939397 app=0.9683575078326074；deg_std: batch=0.998268397 app=0.9683575078326074；acc: batch=0.9446366782 app=0.9515570934256056
+FAIL case3/Dice_only: 5 候选，功能 34，max|Δ|=3.030e-02；acc: batch=0.9480968858 app=0.9515570934256056；prec: batch=0.5454545455 app=0.5757575757575758；recall: batch=0.5454545455 app=0.5757575757575758；F1: batch=0.5454545455 app=0.5757575757575758；acc: batch=0.9480968858 app=0.9515570934256056
+PASS case4/Jaccard_only: 5 候选，功能 9，max|Δ|=4.529e-11
+PASS case4/Dice_only: 5 候选，功能 9，max|Δ|=4.529e-11
+PASS case5/Jaccard_only: 5 候选，功能 29，max|Δ|=4.248e-11
+PASS case5/Dice_only: 5 候选，功能 29，max|Δ|=4.248e-11
+PASS case6/Jaccard_only: 5 候选，功能 20，max|Δ|=4.545e-11
+PASS case6/Dice_only: 5 候选，功能 20，max|Δ|=4.545e-11
+PASS case7/Jaccard_only: 5 候选，功能 8，max|Δ|=4.762e-11
+PASS case7/Dice_only: 5 候选，功能 8，max|Δ|=4.762e-11
+PASS case8/Jaccard_only: 5 候选，功能 14，max|Δ|=4.444e-11
+PASS case8/Dice_only: 5 候选，功能 14，max|Δ|=4.783e-11
+PASS case9/Jaccard_only: 5 候选，功能 8，max|Δ|=4.815e-11
+PASS case9/Dice_only: 5 候选，功能 8，max|Δ|=4.815e-11
+PASS case10/Jaccard_only: 5 候选，功能 19，max|Δ|=4.044e-11
+PASS case10/Dice_only: 5 候选，功能 19，max|Δ|=4.423e-11
+PASS case11/Jaccard_only: 5 候选，功能 8，max|Δ|=4.815e-11
+PASS case11/Dice_only: 5 候选，功能 8，max|Δ|=4.815e-11
+PASS case12/Jaccard_only: 5 候选，功能 5，max|Δ|=4.615e-11
+PASS case12/Dice_only: 5 候选，功能 5，max|Δ|=4.615e-11
+
+总计 24 个条件，失败 2，全体最大偏差 1.960e-01（阈值 1e-09）
+
+差异根因（case3，已确认，按决定不改代码、接受不一致）：
+  app.py 的 process_data 返回 Fortran 内存顺序矩阵，main.py 的 evaluate_method
+  传 matrix.copy()（C 顺序）。两者数值逐位相同（np.array_equal = True），但
+  calculate_semantic_relations 中 feature_freq = normalized_matrix.sum(axis=0)
+  在 C/F 布局下累加顺序不同 → 差 1 ULP（4.44e-16）→ Jaccard 权重差 1 ULP →
+  并列最大权生成树集合从 135 棵变为 8 棵 → 候选树完全不同。
+  其余 11 个 case 并列组规模小，未受影响，故 22/24 完全一致（偏差仅为 CSV 10 位小数舍入 ~5e-11）。
+  batch 结果与 Excel 现有主实验、消融表 λ=1 列（24/24）保持一致，故 Excel 填入 batch 值。

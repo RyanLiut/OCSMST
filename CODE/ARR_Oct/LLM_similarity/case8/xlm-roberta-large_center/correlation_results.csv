@@ -1,0 +1,13 @@
+﻿case,model,context_type,calc_type,pearson_r,pearson_p,spearman_rho,spearman_p
+case8,xlm-roberta-large_center,流畅综合,GT,0.103106,0.330770,0.098033,0.355240
+case8,xlm-roberta-large_center,流畅综合,G,0.214575,0.041105,0.044062,0.678351
+case8,xlm-roberta-large_center,流畅综合,J,0.251694,0.016097,0.118568,0.262977
+case8,xlm-roberta-large_center,流畅综合,D,0.352765,0.000604,0.308927,0.002887
+case8,xlm-roberta-large_center,单独定义,GT,0.273675,0.008667,0.265405,0.011004
+case8,xlm-roberta-large_center,单独定义,G,0.078019,0.462285,-0.033136,0.755183
+case8,xlm-roberta-large_center,单独定义,J,0.058719,0.580346,-0.121315,0.252000
+case8,xlm-roberta-large_center,单独定义,D,0.245576,0.018960,0.211314,0.044356
+case8,xlm-roberta-large_center,简单综合,GT,0.118532,0.263120,0.111183,0.294079
+case8,xlm-roberta-large_center,简单综合,G,0.201239,0.055776,0.052336,0.622233
+case8,xlm-roberta-large_center,简单综合,J,0.227517,0.030090,0.073674,0.487659
+case8,xlm-roberta-large_center,简单综合,D,0.334215,0.001205,0.302003,0.003622

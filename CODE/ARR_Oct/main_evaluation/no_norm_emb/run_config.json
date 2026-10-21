@@ -1,0 +1,7 @@
+{
+  "weight": 0.4,
+  "normalized": false,
+  "similarity_dir": "ARR_Oct/LLM_similarity",
+  "max_tied_trees": 6000,
+  "source": "main.py evaluate_method(normalized=False) + summarize"
+}

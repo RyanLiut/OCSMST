@@ -1,0 +1,16 @@
+﻿case,model,context_type,calc_type,pearson_r,pearson_p,spearman_rho,spearman_p
+case3,xlm-roberta-large_center,流畅综合,GT,0.127921,0.002401,0.110119,0.009045
+case3,xlm-roberta-large_center,流畅综合,J,0.002060,0.961181,-0.041912,0.321724
+case3,xlm-roberta-large_center,流畅综合,D,0.002103,0.960362,-0.041912,0.321724
+case3,xlm-roberta-large_center,单独定义,GT,-0.035486,0.401530,-0.046545,0.271076
+case3,xlm-roberta-large_center,单独定义,J,-0.002435,0.954104,-0.014870,0.725255
+case3,xlm-roberta-large_center,单独定义,D,-0.002756,0.948078,-0.014870,0.725255
+case3,xlm-roberta-large_center,简单综合,GT,0.124675,0.003097,0.091033,0.031098
+case3,xlm-roberta-large_center,简单综合,J,0.038476,0.363016,-0.010837,0.797854
+case3,xlm-roberta-large_center,简单综合,D,0.038320,0.364967,-0.010837,0.797854
+case3,xlm-roberta-large_center,单独例句_均值池化,GT,0.135338,0.001313,0.100669,0.017073
+case3,xlm-roberta-large_center,单独例句_均值池化,J,-0.054436,0.197951,-0.041219,0.329792
+case3,xlm-roberta-large_center,单独例句_均值池化,D,-0.053954,0.201953,-0.041219,0.329792
+case3,xlm-roberta-large_center,单独例句_两两余弦,GT,0.142422,0.000717,0.103663,0.014032
+case3,xlm-roberta-large_center,单独例句_两两余弦,J,-0.040896,0.333608,-0.030270,0.474290
+case3,xlm-roberta-large_center,单独例句_两两余弦,D,-0.040502,0.338283,-0.030270,0.474290

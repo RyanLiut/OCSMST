@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XISM: eXplotary and Interactive Semantic Map</title>
+    <link rel="icon" type="image/png" href="logo/web logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Import Vis.js library for graph visualization -->
+    <script src="libs/vis-network.min.js"></script>
+    <!-- Import xlsx.js library for Excel file processing -->
+    <script src="libs/xlsx.full.min.js"></script>
+    <!-- Import html2canvas for image export -->
+    <script src="libs/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><img src="logo/web title.png" alt="XISM Logo" class="title-logo">XISM: eXplotary and Interactive Semantic Map</h1>
+        </header>
+        
+        <div class="upload-section">
+            <h2>Upload Excel File</h2>
+            <div class="file-upload">
+                <div class="custom-file-input">
+                    <input type="file" id="excel-file" accept=".xlsx, .xls" style="display: none;">
+                    <button id="file-select-btn" class="file-select-button">Choose File</button>
+                </div>
+                <button id="upload-btn">Upload and Generate Graph</button>
+            </div>
+            <div id="file-info"></div>
+            
+            <!-- Blend Method Selector -->
+            <div class="blend-control-panel">
+                <div class="blend-control-row">
+                    <span class="blend-label">Blend</span>
+                    <div class="blend-type-buttons" id="blend-type-buttons">
+                        <button class="blend-type-btn" data-calc-type="G" data-best="0" data-noblend="1">NoBlend</button>
+                        <button class="blend-type-btn" data-calc-type="J" data-best="0.1">Jaccard</button>
+                        <button class="blend-type-btn" data-calc-type="D" data-best="0.2">Dice</button>
+                        <button class="blend-type-btn" data-calc-type="G" data-best="0" data-step="0.01" data-max="0.1">Non-coocur</button>
+                        <button class="blend-type-btn active" data-calc-type="L" data-best="0.5">EmbSim</button>
+                    </div>
+                    <div class="blend-slider-wrapper">
+                        <input type="range" id="blend-weight-slider" class="blend-slider" min="0" max="1" step="0.1" value="0.5">
+                        <span id="blend-weight-value" class="blend-weight-value">0.5</span>
+                        <span id="blend-best-marker" class="blend-best-marker" style="display:none;">★</span>
+                    </div>
+                </div>
+                <div class="llm-sim-upload-row" id="llm-sim-upload-row" style="display:none;">
+                    <span class="blend-label">Sim Matrix</span>
+                    <input type="file" id="llm-sim-file" accept=".csv" style="display:none;">
+                    <button id="llm-sim-select-btn" class="file-select-button">Choose CSV file</button>
+                    <span id="llm-sim-file-info" class="blend-weight-value"></span>
+                </div>
+            </div>
+            
+            <div class="example-buttons-row">
+                <button id="download-guide-btn" class="download-guide-button" title="Download Guide">Download Guide</button>
+                <button id="example-btn" class="example-button" title="案例一：吃类词">ex.1</button>
+                <button id="example-btn-2" class="example-button" title="案例二：补充副词">ex.2</button>
+                <button id="example-btn-3" class="example-button" title="案例三：双及物构式">ex.3</button>
+                <button id="example-btn-4" class="example-button" title="案例四：“得”义词">ex.4</button>
+                <button id="example-btn-5" class="example-button" title="案例五：“和”义词">ex.5</button>
+                <button id="example-btn-6" class="example-button" title="案例六：疑问代词shenme">ex.6</button>
+                <button id="example-btn-7" class="example-button" title="案例七：终竟义副词">ex.7</button>
+                <button id="example-btn-8" class="example-button" title="案例八：量词">ex.8</button>
+                <button id="example-btn-9" class="example-button" title="案例九：泛义动词“做”">ex.9</button>
+                <button id="example-btn-10" class="example-button" title="案例十：泛义动词“打”">ex.10</button>
+                <button id="example-btn-11" class="example-button" title="案例十一：泛义动词“来”">ex.11</button>
+                <button id="example-btn-12" class="example-button" title="案例十二：tree/wood/forest">ex.12</button>
+            </div>
+        </div>
+        
+        <div class="graph-section">
+            <div class="graph-controls">
+                <h2>Graph Controls</h2>
+                <div class="control-group">
+                    <button id="add-edge-btn">Add Edge</button>
+                    <button id="edit-edge-btn">Edit Edge</button>
+                    <button id="delete-edge-btn">Delete Edge</button>
+                    <button id="merge-edge-btn">Merge Edge</button>
+                    <button id="center-btn">Center</button>
+                    <button id="beautiful-btn">Beautify</button>
+    
+                    <button id="download-btn">Download Image</button>
+                    <button id="evolution-btn" class="evolution-button">Evolution</button>
+                    <button id="sla-btn" class="sla-button">SLA</button>
+                    <button id="label-lang-btn" class="label-lang-btn" title="Toggle feature label language">中/EN</button>
+                </div>
+                
+                <!-- Filter Module -->
+                <div class="filter-sections" id="filter-sections">
+                    <div class="form-filter-section">
+                        <h3>Search by Form</h3>
+                        <div class="filter-combo">
+                            <input type="text" id="form-search-input" class="filter-search-input" placeholder="Search form..." autocomplete="off">
+                            <button id="form-filter-btn" class="dropdown-btn">All ▼</button>
+                            <div id="form-filter-menu" class="dropdown-menu" style="display: none;">
+                                <div class="dropdown-item" data-form="all">All Forms</div>
+                </div>
+            </div>
+                    </div>
+                    <div class="form-filter-section">
+                        <h3>Search by Language</h3>
+                        <div class="filter-combo">
+                            <input type="text" id="language-search-input" class="filter-search-input" placeholder="Search language..." autocomplete="off">
+                            <button id="language-filter-btn" class="dropdown-btn">All ▼</button>
+                            <div id="language-search-results" class="dropdown-menu" style="display:none;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="form-legend" class="form-legend" style="display: none;"></div>
+                <div id="evolution-panel" class="evolution-panel" style="display: none;">
+                    <div class="evolution-header">
+                        <h3>Diachronic Evolution View</h3>
+                        <button id="exit-evolution-btn" class="exit-evolution-btn">Back to Normal View</button>
+                    </div>
+                    <div class="evolution-word-selector">
+                        <span class="evolution-section-label">Word:</span>
+                        <div id="evolution-word-tabs" class="evolution-word-tabs"></div>
+                    </div>
+                    <div class="evolution-slider-section">
+                        <div class="evolution-dynasty-display" id="evolution-dynasty-display">上古</div>
+                        <input type="range" id="evolution-slider" class="evolution-slider" min="0" max="3" value="0" step="1">
+                        <div class="evolution-slider-labels" id="evolution-slider-labels"></div>
+                    </div>
+                    <div class="evolution-verb-box" id="evolution-verb-box" style="display: none;">
+                        <div class="evolution-verb-title">Verb Semantics / Lexical Source</div>
+                        <div id="evolution-verb-content"></div>
+                    </div>
+                    <div class="evolution-corpus-box" id="evolution-corpus-box" style="display: none;">
+                        <div class="evolution-corpus-title">Corpus Examples <span class="evolution-corpus-hint">(target word highlighted in context)</span></div>
+                        <div id="evolution-corpus-content"></div>
+                    </div>
+                </div>
+                <div id="sla-panel" class="sla-panel" style="display: none;">
+                    <div class="sla-header">
+                        <h3>Second Language Acquisition View</h3>
+                        <button id="exit-sla-btn" class="exit-sla-btn">Back to Normal View</button>
+                    </div>
+                    <div class="sla-controls">
+                        <div class="sla-control-group">
+                            <label>Native Language:</label>
+                            <input type="text" id="sla-native-lang" list="sla-native-lang-list" placeholder="Select or type..." autocomplete="off">
+                            <datalist id="sla-native-lang-list"></datalist>
+                        </div>
+                        <div class="sla-control-group">
+                            <label>Target Language:</label>
+                            <input type="text" id="sla-target-lang" list="sla-target-lang-list" placeholder="Select or type..." autocomplete="off">
+                            <datalist id="sla-target-lang-list"></datalist>
+                        </div>
+                        <div class="sla-control-group">
+                            <label>Form:</label>
+                            <select id="sla-form-select"></select>
+                        </div>
+                        <div class="sla-control-group">
+                            <label>Proficiency:</label>
+                            <select id="sla-level-select">
+                                <option value="初级">初级</option>
+                                <option value="中级">中级</option>
+                                <option value="高级">高级</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="sla-result-info" class="sla-result-info" style="display:none;"></div>
+                </div>
+                <div id="comparison-panel" class="comparison-panel" style="display:none;"></div>
+                <div class="edge-form" id="edge-form" style="display: none;">
+                    <h3>Add Edge</h3>
+                    <select id="from-node"></select>
+                    <select id="to-node"></select>
+                    <input type="text" id="edge-label" placeholder="Edge Label (Optional)">
+                    <button id="confirm-add-edge">Confirm</button>
+                    <button id="cancel-add-edge">Cancel</button>
+                </div>
+                <div class="edit-edge-form" id="edit-edge-form" style="display: none;">
+                    <h3>Edit Edge</h3>
+                    <input type="text" id="edit-edge-label" placeholder="New Edge Label">
+                    <button id="confirm-edit-edge">Confirm</button>
+                    <button id="cancel-edit-edge">Cancel</button>
+                </div>
+            </div>
+            
+            <div class="carousel-container">
+                <button id="prev-btn" class="carousel-btn">❮</button>
+                
+                <div class="carousel-slides">
+                    <div class="carousel-slide active">
+                        <h3 class="graph-title">Semantic Map</h3>
+                        <div id="graph-container-1" class="graph-container"></div>
+                    </div>
+                </div>
+                
+                <button id="next-btn" class="carousel-btn">❯</button>
+            </div>
+            
+            <div class="carousel-indicators">
+                <span class="indicator active" data-index="0"></span>
+            </div>
+            
+            <!-- 评价指标固定展示模块 -->
+            <div class="evaluation-metrics-panel">
+                <h3>Current Semantic Map Evaluation Metrics</h3>
+                <div class="metrics-grid">
+                    <div class="metric-item">
+                        <span class="metric-label">Weight Sum:</span>
+                        <span class="metric-value" data-metric="weight_sum">-</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Degree Mean:</span>
+                        <span class="metric-value" data-metric="deg_mean">-</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Degree Std:</span>
+                        <span class="metric-value" data-metric="deg_std">-</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Coverage:</span>
+                        <span class="metric-value" data-metric="coverage">-</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Productivity:</span>
+                        <span class="metric-value" data-metric="productivity">-</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Accuracy:</span>
+                        <span class="metric-value" data-metric="acc">-</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Precision:</span>
+                        <span class="metric-value" data-metric="prec">-</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Recall:</span>
+                        <span class="metric-value" data-metric="recall">-</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">F1 Score:</span>
+                        <span class="metric-value" data-metric="F1">-</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Rank:</span>
+                        <span class="metric-value" data-metric="rank">-</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Unconnected Forms 展示模块 -->
+            <div class="unconnected-forms-panel">
+                <h3>Unconnected Forms</h3>
+                <div class="forms-container" id="unconnected-forms-container">
+                    <div class="no-data-message">No unconnected forms data available</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Hover Tooltip for examples -->
+    <div id="example-tooltip" class="example-tooltip" style="display:none;"></div>
+
+    <!-- Help Button -->
+    <button id="help-btn" title="系统帮助">Help</button>
+    
+    <!-- Help Modal -->
+    <div id="help-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="help-content"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+PASS case1/Jaccard_only_nonorm: 5 候选，功能 17，max|Δ|=4.844e-11
+PASS case1/Dice_only_nonorm: 5 候选，功能 17，max|Δ|=4.985e-11
+PASS case2/Jaccard_only_nonorm: 5 候选，功能 18，max|Δ|=4.960e-11
+PASS case2/Dice_only_nonorm: 5 候选，功能 18，max|Δ|=4.960e-11
+PASS case3/Jaccard_only_nonorm: 5 候选，功能 34，max|Δ|=4.848e-11
+PASS case3/Dice_only_nonorm: 5 候选，功能 34，max|Δ|=4.848e-11
+PASS case4/Jaccard_only_nonorm: 5 候选，功能 9，max|Δ|=4.915e-11
+PASS case4/Dice_only_nonorm: 5 候选，功能 9，max|Δ|=4.915e-11
+PASS case5/Jaccard_only_nonorm: 5 候选，功能 29，max|Δ|=4.828e-11
+PASS case5/Dice_only_nonorm: 5 候选，功能 29，max|Δ|=4.828e-11
+PASS case6/Jaccard_only_nonorm: 5 候选，功能 20，max|Δ|=4.483e-11
+PASS case6/Dice_only_nonorm: 5 候选，功能 20，max|Δ|=4.483e-11
+PASS case7/Jaccard_only_nonorm: 5 候选，功能 8，max|Δ|=4.839e-11
+PASS case7/Dice_only_nonorm: 5 候选，功能 8，max|Δ|=4.839e-11
+PASS case8/Jaccard_only_nonorm: 5 候选，功能 14，max|Δ|=4.444e-11
+PASS case8/Dice_only_nonorm: 5 候选，功能 14，max|Δ|=4.548e-11
+PASS case9/Jaccard_only_nonorm: 5 候选，功能 8，max|Δ|=4.815e-11
+PASS case9/Dice_only_nonorm: 5 候选，功能 8，max|Δ|=4.815e-11
+PASS case10/Jaccard_only_nonorm: 5 候选，功能 19，max|Δ|=4.505e-11
+PASS case10/Dice_only_nonorm: 5 候选，功能 19，max|Δ|=4.286e-11
+PASS case11/Jaccard_only_nonorm: 5 候选，功能 8，max|Δ|=4.681e-11
+PASS case11/Dice_only_nonorm: 5 候选，功能 8，max|Δ|=4.681e-11
+PASS case12/Jaccard_only_nonorm: 5 候选，功能 5，max|Δ|=4.762e-11
+PASS case12/Dice_only_nonorm: 5 候选，功能 5，max|Δ|=4.615e-11
+
+总计 24 个条件，失败 0，全体最大偏差 4.985e-11（阈值 1e-09）

@@ -1,1 +1,11 @@
 .DS_Store
+
+# Large local artifacts (heatmaps, experiment archives) — kept in BACKUP_LARGE/, not for git
+BACKUP_LARGE/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Experiment logs
+*.log

@@ -1,0 +1,16 @@
+﻿case,model,context_type,calc_type,pearson_r,pearson_p,spearman_rho,spearman_p
+case4,Qwen3-Embedding-4B,流畅综合,GT,0.318729,0.058142,0.385951,0.020079
+case4,Qwen3-Embedding-4B,流畅综合,J,-0.112433,0.513845,-0.147919,0.389269
+case4,Qwen3-Embedding-4B,流畅综合,D,-0.110824,0.519925,-0.147919,0.389269
+case4,Qwen3-Embedding-4B,单独定义,GT,-0.121486,0.480306,-0.064840,0.707136
+case4,Qwen3-Embedding-4B,单独定义,J,-0.275159,0.104330,-0.094318,0.584271
+case4,Qwen3-Embedding-4B,单独定义,D,-0.273408,0.106643,-0.094318,0.584271
+case4,Qwen3-Embedding-4B,简单综合,GT,-0.164658,0.337231,-0.138943,0.418996
+case4,Qwen3-Embedding-4B,简单综合,J,-0.362066,0.030011,-0.352017,0.035250
+case4,Qwen3-Embedding-4B,简单综合,D,-0.360538,0.030763,-0.352017,0.035250
+case4,Qwen3-Embedding-4B,单独例句_均值池化,GT,0.132823,0.439969,0.145118,0.398412
+case4,Qwen3-Embedding-4B,单独例句_均值池化,J,-0.453118,0.005517,-0.416828,0.011439
+case4,Qwen3-Embedding-4B,单独例句_均值池化,D,-0.452408,0.005600,-0.416828,0.011439
+case4,Qwen3-Embedding-4B,单独例句_两两余弦,GT,-0.009930,0.954165,-0.009263,0.957241
+case4,Qwen3-Embedding-4B,单独例句_两两余弦,J,-0.500615,0.001874,-0.449942,0.005899
+case4,Qwen3-Embedding-4B,单独例句_两两余弦,D,-0.499328,0.001933,-0.449942,0.005899

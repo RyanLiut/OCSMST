@@ -1,0 +1,161 @@
+{
+  "流畅综合": {
+    "TREE": "\"TREE\"是与\"树、木材、柴火、树林、森林\"相关的跨语言及方言共通概念，它的基本含义是\"tree (woody plant)\"。以下是体现该概念的一些例句：Danish træ: Et godt træ bærer god frugt.；French arbre: C’est au fruit qu’on connaît l’arbre.；German Baum: Ein guter Baum bringt gute Früchte hervor.；Spanish árbol: Todo buen árbol da buenos frutos.。",
+    "WOOD (mat)": "\"WOOD (mat)\"是与\"树、木材、柴火、树林、森林\"相关的跨语言及方言共通概念，它的基本含义是\"wood (material)\"。以下是体现该概念的一些例句：Danish træ:Bordet er lavet af træ.；French bois:Le bois est un matériau naturel et renouvelable.；German Holz:Man kann aus Holz viele verschiedene Dinge herstellen.；Spanish madera: La madera es un material muy utilizado en la construcción.。",
+    "FIREWOOD": "\"FIREWOOD\"是与\"树、木材、柴火、树林、森林\"相关的跨语言及方言共通概念，它的基本含义是\"firewood (wood used for burning)\"。以下是体现该概念的一些例句：Danish træ:Vi samler træ til bålet.；French bois:Il faut rentrer du bois avant l’hiver.；German Holz:Wir legen noch Holz in den Ofen.；Spanish leña: Hay quien cruza el bosque y no ve leña para el fuego.。",
+    "FOREST (small)": "\"FOREST (small)\"是与\"树、木材、柴火、树林、森林\"相关的跨语言及方言共通概念，它的基本含义是\"small forest, woods/grove\"。以下是体现该概念的一些例句：Danish skov:Vi gik en tur i skoven.；French bois and forêt:Il se promenait dans les bois.；Les arbres de la forêt, vous connaissez mon âme.；German Wald:Du siehst den Wald vor lauter Bäumen nicht.；Spanish bosque: El canto del pájaro es lo único que quita miedo al bosque.。",
+    "FOREST (large)": "\"FOREST (large)\"是与\"树、木材、柴火、树林、森林\"相关的跨语言及方言共通概念，它的基本含义是\"large forest\"。以下是体现该概念的一些例句：Danish skov: Skoven er hjem for mange forskellige dyr.；French forêt: Sans l’ironie, le monde serait comme une forêt sans oiseaux.；German Wald: Man sieht den Wald vor lauter Bäumen nicht.；Spanish selva: Por las selvas y por los montes anda buscando peligrosas aventuras.。"
+  },
+  "单独例句": {
+    "TREE": [
+      {
+        "目标词": "træ",
+        "句子": "Et godt træ bærer god frugt.",
+        "开头索引": 8,
+        "末尾索引": 11
+      },
+      {
+        "目标词": "arbre",
+        "句子": "C’est au fruit qu’on connaît l’arbre.",
+        "开头索引": 31,
+        "末尾索引": 36
+      },
+      {
+        "目标词": "Baum",
+        "句子": "Ein guter Baum bringt gute Früchte hervor.",
+        "开头索引": 10,
+        "末尾索引": 14
+      },
+      {
+        "目标词": "árbol",
+        "句子": "Todo buen árbol da buenos frutos.",
+        "开头索引": 10,
+        "末尾索引": 15
+      }
+    ],
+    "WOOD (mat)": [
+      {
+        "目标词": "træ",
+        "句子": "Bordet er lavet af træ.",
+        "开头索引": 19,
+        "末尾索引": 22
+      },
+      {
+        "目标词": "bois",
+        "句子": "Le bois est un matériau naturel et renouvelable.",
+        "开头索引": 3,
+        "末尾索引": 7
+      },
+      {
+        "目标词": "Holz",
+        "句子": "Man kann aus Holz viele verschiedene Dinge herstellen.",
+        "开头索引": 13,
+        "末尾索引": 17
+      },
+      {
+        "目标词": "madera",
+        "句子": "La madera es un material muy utilizado en la construcción.",
+        "开头索引": 3,
+        "末尾索引": 9
+      }
+    ],
+    "FIREWOOD": [
+      {
+        "目标词": "træ",
+        "句子": "Vi samler træ til bålet.",
+        "开头索引": 10,
+        "末尾索引": 13
+      },
+      {
+        "目标词": "bois",
+        "句子": "Il faut rentrer du bois avant l’hiver.",
+        "开头索引": 19,
+        "末尾索引": 23
+      },
+      {
+        "目标词": "Holz",
+        "句子": "Wir legen noch Holz in den Ofen.",
+        "开头索引": 15,
+        "末尾索引": 19
+      },
+      {
+        "目标词": "leña",
+        "句子": "Hay quien cruza el bosque y no ve leña para el fuego.",
+        "开头索引": 34,
+        "末尾索引": 38
+      }
+    ],
+    "FOREST (small)": [
+      {
+        "目标词": "skov",
+        "句子": "Vi gik en tur i skoven.",
+        "开头索引": 16,
+        "末尾索引": 20
+      },
+      {
+        "目标词": "bois and forêt",
+        "句子": "Il se promenait dans les bois.",
+        "开头索引": 25,
+        "末尾索引": 29
+      },
+      {
+        "目标词": "bois and forêt",
+        "句子": "Les arbres de la forêt, vous connaissez mon âme.",
+        "开头索引": 17,
+        "末尾索引": 22
+      },
+      {
+        "目标词": "Wald",
+        "句子": "Du siehst den Wald vor lauter Bäumen nicht.",
+        "开头索引": 14,
+        "末尾索引": 18
+      },
+      {
+        "目标词": "bosque",
+        "句子": "El canto del pájaro es lo único que quita miedo al bosque.",
+        "开头索引": 51,
+        "末尾索引": 57
+      }
+    ],
+    "FOREST (large)": [
+      {
+        "目标词": "skov",
+        "句子": "Skoven er hjem for mange forskellige dyr.",
+        "开头索引": 0,
+        "末尾索引": 4
+      },
+      {
+        "目标词": "forêt",
+        "句子": "Sans l’ironie, le monde serait comme une forêt sans oiseaux.",
+        "开头索引": 41,
+        "末尾索引": 46
+      },
+      {
+        "目标词": "Wald",
+        "句子": "Man sieht den Wald vor lauter Bäumen nicht.",
+        "开头索引": 14,
+        "末尾索引": 18
+      },
+      {
+        "目标词": "selva",
+        "句子": "Por las selvas y por los montes anda buscando peligrosas aventuras.",
+        "开头索引": 8,
+        "末尾索引": 13
+      }
+    ]
+  },
+  "单独定义": {
+    "TREE": "tree (woody plant)",
+    "WOOD (mat)": "wood (material)",
+    "FIREWOOD": "firewood (wood used for burning)",
+    "FOREST (small)": "small forest, woods/grove",
+    "FOREST (large)": "large forest"
+  },
+  "简单综合": {
+    "TREE": "定义：tree (woody plant)\n例句：Et godt træ bærer god frugt.；C’est au fruit qu’on connaît l’arbre.；Ein guter Baum bringt gute Früchte hervor.；Todo buen árbol da buenos frutos.",
+    "WOOD (mat)": "定义：wood (material)\n例句：Bordet er lavet af træ.；Le bois est un matériau naturel et renouvelable.；Man kann aus Holz viele verschiedene Dinge herstellen.；La madera es un material muy utilizado en la construcción.",
+    "FIREWOOD": "定义：firewood (wood used for burning)\n例句：Vi samler træ til bålet.；Il faut rentrer du bois avant l’hiver.；Wir legen noch Holz in den Ofen.；Hay quien cruza el bosque y no ve leña para el fuego.",
+    "FOREST (small)": "定义：small forest, woods/grove\n例句：Vi gik en tur i skoven.；Il se promenait dans les bois.；Les arbres de la forêt, vous connaissez mon âme.；Du siehst den Wald vor lauter Bäumen nicht.；El canto del pájaro es lo único que quita miedo al bosque.",
+    "FOREST (large)": "定义：large forest\n例句：Skoven er hjem for mange forskellige dyr.；Sans l’ironie, le monde serait comme une forêt sans oiseaux.；Man sieht den Wald vor lauter Bäumen nicht.；Por las selvas y por los montes anda buscando peligrosas aventuras."
+  }
+}

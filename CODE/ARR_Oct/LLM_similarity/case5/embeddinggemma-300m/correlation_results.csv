@@ -1,0 +1,10 @@
+﻿case,model,context_type,calc_type,pearson_r,pearson_p,spearman_rho,spearman_p
+case5,embeddinggemma-300m,流畅综合,GT,0.262559,0.000000,0.216202,0.000011
+case5,embeddinggemma-300m,流畅综合,J,0.286599,0.000000,0.235735,0.000002
+case5,embeddinggemma-300m,流畅综合,D,0.287403,0.000000,0.235735,0.000002
+case5,embeddinggemma-300m,单独定义,GT,0.172063,0.000497,0.135254,0.006344
+case5,embeddinggemma-300m,单独定义,J,0.006267,0.899824,-0.096313,0.052480
+case5,embeddinggemma-300m,单独定义,D,0.006973,0.888601,-0.096313,0.052480
+case5,embeddinggemma-300m,简单综合,GT,0.365772,0.000000,0.294703,0.000000
+case5,embeddinggemma-300m,简单综合,J,0.428370,0.000000,0.443494,0.000000
+case5,embeddinggemma-300m,简单综合,D,0.429895,0.000000,0.443494,0.000000

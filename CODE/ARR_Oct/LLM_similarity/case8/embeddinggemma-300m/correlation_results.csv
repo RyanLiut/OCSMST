@@ -1,0 +1,13 @@
+﻿case,model,context_type,calc_type,pearson_r,pearson_p,spearman_rho,spearman_p
+case8,embeddinggemma-300m,流畅综合,GT,0.261202,0.012390,0.234322,0.025377
+case8,embeddinggemma-300m,流畅综合,G,0.246723,0.018393,0.237622,0.023328
+case8,embeddinggemma-300m,流畅综合,J,0.208869,0.046933,0.135328,0.200900
+case8,embeddinggemma-300m,流畅综合,D,0.334839,0.001178,0.353320,0.000592
+case8,embeddinggemma-300m,单独定义,GT,0.142436,0.178029,0.092055,0.385474
+case8,embeddinggemma-300m,单独定义,G,-0.176176,0.094826,-0.218310,0.037626
+case8,embeddinggemma-300m,单独定义,J,-0.117987,0.265340,-0.144585,0.171504
+case8,embeddinggemma-300m,单独定义,D,0.047221,0.656697,0.144603,0.171452
+case8,embeddinggemma-300m,简单综合,GT,0.313060,0.002516,0.292902,0.004839
+case8,embeddinggemma-300m,简单综合,G,0.114042,0.281763,0.144728,0.171077
+case8,embeddinggemma-300m,简单综合,J,0.123517,0.243429,0.088754,0.402815
+case8,embeddinggemma-300m,简单综合,D,0.250761,0.016508,0.299373,0.003942

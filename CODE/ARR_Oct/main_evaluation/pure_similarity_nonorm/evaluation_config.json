@@ -1,0 +1,34 @@
+{
+  "cases": [
+    "case1",
+    "case2",
+    "case3",
+    "case4",
+    "case5",
+    "case6",
+    "case7",
+    "case8",
+    "case9",
+    "case10",
+    "case11",
+    "case12"
+  ],
+  "methods": [
+    "Jaccard_only_nonorm",
+    "Dice_only_nonorm"
+  ],
+  "weights": {
+    "Jaccard_only_nonorm": 1.0,
+    "Dice_only_nonorm": 1.0
+  },
+  "normalized": false,
+  "max_tied_trees": 6000,
+  "data_dir": "data_pure",
+  "similarity_dir": "ARR_Oct/LLM_similarity",
+  "selection_protocol": "app_smm_native_no_norm_blends_v1",
+  "normalization_by_method": {
+    "Jaccard_only_nonorm": false,
+    "Dice_only_nonorm": false
+  },
+  "source": "ARR_Oct/main_evaluation/pure_similarity_main.py"
+}

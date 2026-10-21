@@ -1,0 +1,16 @@
+﻿case,model,context_type,calc_type,pearson_r,pearson_p,spearman_rho,spearman_p
+case10,mmBERT-base_center,流畅综合,GT,0.076926,0.317288,0.084540,0.271607
+case10,mmBERT-base_center,流畅综合,J,-0.113473,0.139476,-0.136981,0.074009
+case10,mmBERT-base_center,流畅综合,D,-0.113351,0.139906,-0.136981,0.074009
+case10,mmBERT-base_center,单独定义,GT,0.031298,0.684468,0.032426,0.673732
+case10,mmBERT-base_center,单独定义,J,0.042706,0.579163,0.064145,0.404559
+case10,mmBERT-base_center,单独定义,D,0.042844,0.577935,0.064145,0.404559
+case10,mmBERT-base_center,简单综合,GT,0.060599,0.431077,0.044007,0.567643
+case10,mmBERT-base_center,简单综合,J,0.034507,0.654106,0.017643,0.818838
+case10,mmBERT-base_center,简单综合,D,0.034632,0.652942,0.017643,0.818838
+case10,mmBERT-base_center,单独例句_均值池化,GT,0.131544,0.086345,0.127004,0.097860
+case10,mmBERT-base_center,单独例句_均值池化,J,-0.156641,0.040760,-0.182368,0.016971
+case10,mmBERT-base_center,单独例句_均值池化,D,-0.156210,0.041323,-0.182368,0.016971
+case10,mmBERT-base_center,单独例句_两两余弦,GT,0.096976,0.207019,0.118125,0.123866
+case10,mmBERT-base_center,单独例句_两两余弦,J,-0.160710,0.035746,-0.160388,0.036123
+case10,mmBERT-base_center,单独例句_两两余弦,D,-0.160432,0.036070,-0.160388,0.036123

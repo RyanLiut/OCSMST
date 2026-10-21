@@ -1,0 +1,60 @@
+﻿scope,algorithm,setting,best_F1,optimal_weights,near_optimal_weights
+case1,Jaccard,norm,0.81250000,"[0.1, 0.6]","[0.1, 0.6]"
+case1,Jaccard,no_norm,0.81250000,"[0, 0.8]","[0, 0.8]"
+case1,Dice,norm,0.81250000,"[0.1, 0.6]","[0.1, 0.6]"
+case1,Dice,no_norm,0.81250000,"[0, 0.8]","[0, 0.8]"
+case1,EmbSim,norm,0.81250000,"[0.1, 0.8]","[0.1, 0.8]"
+case1,EmbSim,no_norm,0.81250000,"[0, 0.9]","[0, 0.9]"
+case2,Jaccard,norm,0.83333333,"[0, 0.3]","[0, 0.3]"
+case2,Jaccard,no_norm,0.83333333,"[0, 0.7]","[0, 0.7]"
+case2,Dice,norm,0.83333333,"[0, 0.3]","[0, 0.3]"
+case2,Dice,no_norm,0.83333333,"[0, 0.7]","[0, 0.7]"
+case2,EmbSim,norm,0.88888889,"[0.1, 0.6]","[0.1, 0.6]"
+case2,EmbSim,no_norm,0.88888889,"[0.1, 0.9]","[0.1, 0.9]"
+case3,Jaccard,no_norm,0.63636364,"0.2, 0.5, 0.7","0.2, 0.5, 0.7"
+case3,Dice,no_norm,0.63636364,0.4,0.4
+case3,EmbSim,norm,0.54545455,"0, 0.3","0, 0.3"
+case4,Jaccard,norm,0.58823529,"0.3, [0.8, 0.9]","0.3, [0.8, 0.9]"
+case4,Jaccard,no_norm,0.58823529,"[0, 1]","[0, 1]"
+case4,Dice,norm,0.58823529,"0.3, [0.5, 0.6], [0.8, 0.9]","0.3, [0.5, 0.6], [0.8, 0.9]"
+case4,Dice,no_norm,0.58823529,"[0, 1]","[0, 1]"
+case4,EmbSim,norm,0.58823529,"[0.1, 0.9]","[0.1, 0.9]"
+case4,EmbSim,no_norm,0.58823529,"[0, 0.9]","[0, 0.9]"
+case5,Jaccard,no_norm,0.70175439,"[0.8, 0.9]","[0.8, 0.9]"
+case5,Dice,no_norm,0.70175439,0.8,0.8
+case5,EmbSim,norm,0.73684211,0.4,0.4
+case6,Jaccard,norm,0.50000000,"[0, 0.4]","[0, 0.4]"
+case6,Dice,norm,0.50000000,"[0, 0.3]","[0, 0.3]"
+case7,Jaccard,norm,0.75000000,"[0, 0.9]","[0, 0.9]"
+case7,Jaccard,no_norm,0.75000000,"[0, 0.9]","[0, 0.9]"
+case7,Dice,norm,0.75000000,"[0, 0.9]","[0, 0.9]"
+case7,Dice,no_norm,0.75000000,"[0, 0.9]","[0, 0.9]"
+case7,EmbSim,norm,0.75000000,"[0, 0.8]","[0, 0.8]"
+case7,EmbSim,no_norm,0.75000000,"[0, 0.9]","[0, 0.9]"
+case8,Jaccard,norm,0.69230769,"[0.1, 0.5]","[0.1, 0.5]"
+case8,Dice,norm,0.69230769,"[0.1, 0.4]","[0.1, 0.4]"
+case8,EmbSim,norm,0.53846154,"[0.1, 0.8]","[0.1, 0.8]"
+case8,EmbSim,no_norm,0.53846154,"[0, 0.9]","[0, 0.9]"
+case9,Jaccard,no_norm,0.57142857,"0, 1","0, 1"
+case9,Dice,no_norm,0.57142857,"0, 1","0, 1"
+case9,EmbSim,norm,1.00000000,"[0.1, 0.9]","[0.1, 0.9]"
+case9,EmbSim,no_norm,1.00000000,"[0.1, 0.9]","[0.1, 0.9]"
+case10,Jaccard,no_norm,0.50000000,0,0
+case10,Dice,no_norm,0.50000000,0,0
+case10,EmbSim,no_norm,0.50000000,0,0
+case11,Jaccard,norm,0.85714286,0,0
+case11,Dice,norm,0.85714286,0,0
+case11,EmbSim,norm,0.85714286,"[0, 0.6]","[0, 0.6]"
+case11,EmbSim,no_norm,0.85714286,"[0.1, 0.8]","[0.1, 0.8]"
+case12,Jaccard,norm,0.75000000,"[0, 1]","[0, 1]"
+case12,Jaccard,no_norm,0.75000000,"[0, 1]","[0, 1]"
+case12,Dice,norm,0.75000000,"[0, 1]","[0, 1]"
+case12,Dice,no_norm,0.75000000,"[0, 1]","[0, 1]"
+整体宏平均,Jaccard,norm,0.59289578,N/A,0.3
+整体宏平均,Jaccard,no_norm,0.59289578,0,"0, 0.2, 0.5, 0.7"
+整体宏平均,Dice,norm,0.59318436,N/A,0.3
+整体宏平均,Dice,no_norm,0.59318436,0.7,"0, 0.4, 0.7"
+整体宏平均,EmbSim,norm,0.70761111,0.4,"[0.1, 0.5]"
+整体宏平均,EmbSim,no_norm,0.70761111,N/A,"[0.1, 0.7]"
+整体宏平均,融合算法整体,norm,0.62670858,N/A,"0.1, 0.3"
+整体宏平均,融合算法整体,no_norm,0.62670858,0.7,"[0.1, 0.8]"

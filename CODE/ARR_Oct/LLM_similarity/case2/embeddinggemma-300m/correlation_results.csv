@@ -1,0 +1,16 @@
+﻿case,model,context_type,calc_type,pearson_r,pearson_p,spearman_rho,spearman_p
+case2,embeddinggemma-300m,流畅综合,GT,0.401403,0.000000,0.355389,0.000007
+case2,embeddinggemma-300m,流畅综合,J,0.579633,0.000000,0.456464,0.000000
+case2,embeddinggemma-300m,流畅综合,D,0.579408,0.000000,0.456464,0.000000
+case2,embeddinggemma-300m,单独定义,GT,0.127145,0.117310,0.119809,0.140179
+case2,embeddinggemma-300m,单独定义,J,0.115430,0.155363,0.175689,0.029837
+case2,embeddinggemma-300m,单独定义,D,0.115703,0.154385,0.175689,0.029837
+case2,embeddinggemma-300m,简单综合,GT,0.390903,0.000001,0.343274,0.000014
+case2,embeddinggemma-300m,简单综合,J,0.483766,0.000000,0.396465,0.000000
+case2,embeddinggemma-300m,简单综合,D,0.483765,0.000000,0.396465,0.000000
+case2,embeddinggemma-300m,单独例句_均值池化,GT,0.427223,0.000000,0.422698,0.000000
+case2,embeddinggemma-300m,单独例句_均值池化,J,0.350311,0.000009,0.498698,0.000000
+case2,embeddinggemma-300m,单独例句_均值池化,D,0.351558,0.000008,0.498698,0.000000
+case2,embeddinggemma-300m,单独例句_两两余弦,GT,0.269886,0.000741,0.277311,0.000520
+case2,embeddinggemma-300m,单独例句_两两余弦,J,0.128304,0.113980,0.315313,0.000072
+case2,embeddinggemma-300m,单独例句_两两余弦,D,0.129678,0.110127,0.315313,0.000072

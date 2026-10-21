@@ -1,0 +1,31 @@
+{
+  "cases": [
+    "case8"
+  ],
+  "methods": [
+    "NoBlend",
+    "NoBlend_norm",
+    "Jaccard",
+    "Dice",
+    "Embeds"
+  ],
+  "weights": {
+    "NoBlend": 0.0,
+    "NoBlend_norm": 0.0,
+    "Jaccard": 0.1,
+    "Dice": 0.2,
+    "Embeds": 0.4
+  },
+  "data_dir": "data_pure",
+  "similarity_dir": "ARR_Oct/LLM_similarity",
+  "normalized": true,
+  "max_tied_trees": 6000,
+  "selection_protocol": "app_smm_native_norm_blends_v2",
+  "normalization_by_method": {
+    "NoBlend": false,
+    "NoBlend_norm": true,
+    "Jaccard": true,
+    "Dice": true,
+    "Embeds": true
+  }
+}

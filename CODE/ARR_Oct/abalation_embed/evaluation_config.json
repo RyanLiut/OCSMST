@@ -1,0 +1,49 @@
+{
+  "data_dir": "data_pure",
+  "similarity_dir": "ARR_Oct/LLM_similarity",
+  "cases": [
+    "case1",
+    "case2",
+    "case3",
+    "case4",
+    "case5",
+    "case6",
+    "case7",
+    "case8",
+    "case9",
+    "case10",
+    "case11",
+    "case12"
+  ],
+  "models": [
+    "Qwen3-Embedding-0.6B",
+    "Qwen3-Embedding-4B",
+    "Qwen3-Embedding-8B",
+    "bge-m3",
+    "embeddinggemma-300m",
+    "mmBERT-base",
+    "mmBERT-base_center",
+    "mmBERT-small",
+    "mmBERT-small_center",
+    "xlm-roberta-base",
+    "xlm-roberta-base_center",
+    "xlm-roberta-large",
+    "xlm-roberta-large_center"
+  ],
+  "embedding_types": [
+    "流畅综合",
+    "单独定义",
+    "简单综合",
+    "单独例句_均值池化",
+    "单独例句_两两余弦"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "blend_weight": 0.4,
+  "normalized": false
+}

@@ -1,0 +1,687 @@
+{
+  "流畅综合": {
+    "对象疑问": "\"对象疑问\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Interrogative word in subject/object position.\"。以下是体现该功能的一些例句：什么：汉语普通话：你吃什么？；何：日语：何食べる？；Nemimu：维吾尔语：uniŋʁa nemimu dɛjmɛn?；뭐：韩语：뭐 먹을래?；gì/ cái gì：越南语：Bạn ăn gì/ cái gì?；Etwas：德语：Essen Sie etwas?。",
+    "性质疑问": "\"性质疑问\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Interrogative word in attributive position.\"。以下是体现该功能的一些例句：什么：汉语普通话：你吃什么水果？；何：日语：何の果物食べる？；Nemɛ：维吾尔语：siz nemɛ kitab kørdiŋiz?；무슨：韩语：너는 무슨 과일을 먹니?；Gì：越南语：Bạn ăn hoa quả gì?；Etwas：德语：Möchtest Du etwas Obstessen?。",
+    "对象虚指": "\"对象虚指\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Indefinite pronoun in subject/object position.\"。以下是体现该功能的一些例句：什么：汉语普通话：你吃点什么吗？；何か：日语：何か食べますか？；mo si：武汉话：他好像在吃mo si。；Allinemilɛmi/neminidu/bir nemɛ：维吾尔语：Ular allinemilɛmi dejiʃkinitʃɛ  ojdin tʃiqip ketiʃti.；u neminidu ɛslɛp bir uluʁ-kitʃik tinivetip jɛnɛ søzini davamlaʃturdi.；u bazardin bir nemɛ eliʃini oilap, uzaq vaqit ailanʁan bolsimu hetʃnemɛ alalmidi.；Hva：挪威语：Hva har du lyst til a spise?；Det serut som at han spise noe.；Apa/sesuatu：马来语：Apa yang kam u nak makan?；Saya sudah lapar, ingin makan sesuatu.。",
+    "性质虚指": "\"性质虚指\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Indefinite expression in attributive position.\"。以下是体现该功能的一些例句：什么：汉语普通话：你吃点什么水果吗？；何か：日语：何か果物食べますか？；Mo：武汉话：他好像在吃mo水果。；维吾尔语：ular birɛr iʃni mɛslihɛt qiliʃivatidu.；Litt：挪威语：Har du lyst pa litt frukt?；Det ser ut som at han spiser en slags frukt.；Sedikit/sesuatu：马来语：Kamu nak makan sedikit sayur?；Dia macam sedang makan sesuatu sayur.。",
+    "贬低": "\"贬低\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Pejorative/depreciative tone.\"。以下是体现该功能的一些例句：什么：汉语：你应该有点自尊心吧。；我不需要什么自尊心。；なんて：日语：あなたはプライドを持つべきだ。；私にはプライドなんて必要ないよ。；麽咯：湖南冷水江话：我要麽咯自尊心喽！。",
+    "对象任指": "\"对象任指\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Pronoun with universal/free-choice meaning in subject/object position.\"。以下是体现该功能的一些例句：什么：汉语普通话：我什么都吃。；不管/无论是什么，我都吃。；么子：湖南韶山话：我么子都吃。；Arai：泰语：Arai ko kin.；Arai ko kin mod.；Maiwa arai, chan ko kin.；Maiwa arai, chan kin mod.；Apapun：印尼语：Apapun saya makan.；Apapun itu, pasti saya makan.；hɛr nemi/nemɛ/hetʃnemɛ/nemɛ ... qɛtijnɛzɛr：维吾尔语：bu maɡizindahɛr nemilɛr bar.；qelividin baʃɡa nemɛ bolsa bolidu.；Epsuski, hetʃnemɛ tʃiqmidi hetʃbir øzɡinʃɛr bolmidi.；u bazarin bir nemɛ eliʃini oilap, uzaq vaqit ailanʁan bolsimu hetʃnemɛ alalmidi.；nemɛ dijidin qɛtijnɛzɛr tʃoqum ojliniʃ arqiliq andin eʁiz itʃiʃ kerɛk.。",
+    "性质任指": "\"性质任指\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Universal/free-choice element in attributive position.\"。以下是体现该功能的一些例句：arai：泰语：Ponlamai arai chan ko kin mod.；Apapun：印尼语：Buah apapun saya makan.；hɛr qandaq/qandaq/hetʃqandaq/qandaq ... qɛtijnɛzɛr：维吾尔语：man saŋahɛr qandaq iʃni bidʒirip berɛlɛjmɛn.；bu qetimqi tuʁulʁan kynyŋdɛ qandaq mehman tʃaqirsaŋmu boliveridu.；bir jildin bujan, u hetʃqandaq maqalini inlan qilmiʁan.；u qandaq nɛrsɛ eliʃtin qɛtijnɛzɛr daim ɛŋ jaxʃni allajdu.；apa：马来语：apa-apa sayur pun saya makan.；Tak kira sayur apa, saya juga makan.。",
+    "对象承指": "\"对象承指\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Anaphoric reference to the preceding text in subject/object position.\"。以下是体现该功能的一些例句：什么：汉语普通话：你想吃什么就吃什么吧。；啥：武威话：你想吃啥[sa]就吃啥[sa]吧。；啥子：成都话：你想吃啥子就吃啥子。；Arai：泰语：Chan kin arai, Ter ko kinannan.；gì / cái - cái đó：越南语：Hôm nay tôi mời, bạn muốn ăn gì / cái gì thì sē ăn cái đó nhé!；孰-之：古代汉语：古代汉语：孰杀子产，吾其与之！。",
+    "性质承指": "\"性质承指\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Anaphoric reference to the preceding text in attributive position.\"。以下是体现该功能的一些例句：什么：汉语普通话：你想吃什么水果就吃什么水果吧。；啥：武威话：你想吃啥[sa]水果就吃啥[sa]水果吧。；啥子：成都话：你想吃啥子水果就吃啥子水果。。",
+    "举例": "\"举例\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，以下是体现该功能的一些例句：jiege：丽水话：我喜欢吃水果，比如jiege苹果、香蕉。；乜嘢：广州话：我钟意食水果，好似乜嘢苹果啊、香蕉啊。。",
+    "举例未尽": "\"举例未尽\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，以下是体现该功能的一些例句：汉语普通话：我喜欢吃水果，像苹果、香蕉那些。；啥子：成都话：我喜欢吃水果，像啥子苹果、香蕉这些/那些。；么子：韶山话：我喜欢水果，比如香蕉、苹果么子。。",
+    "命题否定": "\"命题否定\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Negates the extension of a proposition.\"。以下是体现该功能的一些例句：什么：汉语普通话：什么日本人，我是中国人。；무슨：韩语：일본 사람은 무슨, 나는 중국 사람이야.；Mitä：芬兰语：Mitä japanilainen? Olen Kiinalainen.。",
+    "内容否定": "\"内容否定\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Negates the intension/content of a thing.\"。以下是体现该功能的一些例句：什么：汉语普通话：什么老师，不像话。；무슨：韩语：무슨 선생님이, 말도 안 된다.；嘛：天津话：这是嘛老师，不像话。。",
+    "不及物否定": "\"不及物否定\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Negates an intransitive verb.\"。以下是体现该功能的一些例句：何：日语：何走ってるの！；Jiamejie：丽水话：跑jiamejie！nge跑！。",
+    "及物否定": "\"及物否定\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Negates a transitive verb.\"。以下是体现该功能的一些例句：무슨：韩语：（먹긴） 무슨 밥을 먹어! 먹지 마.；麽咯：冷水江话：呷麽咯饭咯，莫呷哩。。",
+    "属性否定": "\"属性否定\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Negates an adjective.\"。以下是体现该功能的一些例句：什么：汉语：贵什么！不贵！；무엇이(무엇이/뭐가)：韩语：비싸긴 무엇이(무엇이/뭐가)(비싸)요!；Cosa：意大利语：Ma caro cosa! Non e'affatto caro.。",
+    "事物感叹": "\"事物感叹\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Exclamation that directly modifies a nominal expression.\"。以下是体现该功能的一些例句：What：英语：What a man!；Was fuer：德语：Was fuer einen Mann!；Che：意大利语：Che uomo!；For：挪威语：for en mann!；Thật：越南语：Thật đàn ông!。",
+    "属性感叹": "\"属性感叹\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Exclamation with a descriptive element.\"。以下是体现该功能的一些例句：Was fuer：德语：Was fuer ein schooner Tag!；Che：意大利语：Che bei fiori!；for：挪威语：for en vakker dag!；Thật：越南语：Thật là một ngày đẹp trời!。",
+    "关系代词": "\"关系代词\"是汉语多功能疑问词\"什么\"的跨语言及方言共通的概念，它的基本含义是\"Relative pronoun.\"。以下是体现该功能的一些例句：What ：英语：What I like is playing basketball.；Was：德语：Was Ich mag ist Basketball spielen.；Arai：泰语：Arai ti Tuechob, chan ko chob.；Apa：马来语：Apa yang saya suka ialah kangkung.。"
+  },
+  "单独例句": {
+    "对象疑问": [
+      {
+        "目标词": "什么",
+        "句子": "你吃什么？",
+        "开头索引": 2,
+        "末尾索引": 4
+      },
+      {
+        "目标词": "何",
+        "句子": "何食べる？",
+        "开头索引": 0,
+        "末尾索引": 1
+      },
+      {
+        "目标词": "Nemimu",
+        "句子": "uniŋʁa nemimu dɛjmɛn?",
+        "开头索引": 7,
+        "末尾索引": 13
+      },
+      {
+        "目标词": "뭐",
+        "句子": "뭐 먹을래?",
+        "开头索引": 0,
+        "末尾索引": 1
+      },
+      {
+        "目标词": "gì/ cái gì",
+        "句子": "Bạn ăn gì/ cái gì?",
+        "开头索引": 7,
+        "末尾索引": 18
+      },
+      {
+        "目标词": "Etwas",
+        "句子": "Essen Sie etwas?",
+        "开头索引": 10,
+        "末尾索引": 15
+      }
+    ],
+    "性质疑问": [
+      {
+        "目标词": "什么",
+        "句子": "你吃什么水果？",
+        "开头索引": 2,
+        "末尾索引": 4
+      },
+      {
+        "目标词": "何",
+        "句子": "何の果物食べる？",
+        "开头索引": 0,
+        "末尾索引": 1
+      },
+      {
+        "目标词": "Nemɛ",
+        "句子": "siz nemɛ kitab kørdiŋiz?",
+        "开头索引": 4,
+        "末尾索引": 8
+      },
+      {
+        "目标词": "무슨",
+        "句子": "너는 무슨 과일을 먹니?",
+        "开头索引": 3,
+        "末尾索引": 5
+      },
+      {
+        "目标词": "Gì",
+        "句子": "Bạn ăn hoa quả gì?",
+        "开头索引": 15,
+        "末尾索引": 17
+      },
+      {
+        "目标词": "Etwas",
+        "句子": "Möchtest Du etwas Obstessen?",
+        "开头索引": 12,
+        "末尾索引": 17
+      }
+    ],
+    "对象虚指": [
+      {
+        "目标词": "什么",
+        "句子": "你吃点什么吗？",
+        "开头索引": 3,
+        "末尾索引": 5
+      },
+      {
+        "目标词": "何か",
+        "句子": "何か食べますか？",
+        "开头索引": 0,
+        "末尾索引": 2
+      },
+      {
+        "目标词": "mo si",
+        "句子": "他好像在吃mo si。",
+        "开头索引": 5,
+        "末尾索引": 10
+      },
+      {
+        "目标词": "Allinemilɛmi/neminidu/bir nemɛ",
+        "句子": "Ular allinemilɛmi dejiʃkinitʃɛ  ojdin tʃiqip ketiʃti.",
+        "开头索引": 5,
+        "末尾索引": 17
+      },
+      {
+        "目标词": "Allinemilɛmi/neminidu/bir nemɛ",
+        "句子": "u neminidu ɛslɛp bir uluʁ-kitʃik tinivetip jɛnɛ søzini davamlaʃturdi.",
+        "开头索引": 2,
+        "末尾索引": 10
+      },
+      {
+        "目标词": "Allinemilɛmi/neminidu/bir nemɛ",
+        "句子": "u bazardin bir nemɛ eliʃini oilap, uzaq vaqit ailanʁan bolsimu hetʃnemɛ alalmidi.",
+        "开头索引": 11,
+        "末尾索引": 19
+      },
+      {
+        "目标词": "Hva",
+        "句子": "Hva har du lyst til a spise?",
+        "开头索引": 0,
+        "末尾索引": 3
+      },
+      {
+        "目标词": "Mo",
+        "句子": "Det serut som at han spise noe.",
+        "开头索引": 12,
+        "末尾索引": 13
+      },
+      {
+        "目标词": "Apa/sesuatu",
+        "句子": "Apa yang kam u nak makan?",
+        "开头索引": 0,
+        "末尾索引": 3
+      },
+      {
+        "目标词": "Apa/sesuatu",
+        "句子": "Saya sudah lapar, ingin makan sesuatu.",
+        "开头索引": 30,
+        "末尾索引": 37
+      }
+    ],
+    "性质虚指": [
+      {
+        "目标词": "什么",
+        "句子": "你吃点什么水果吗？",
+        "开头索引": 3,
+        "末尾索引": 5
+      },
+      {
+        "目标词": "何か",
+        "句子": "何か果物食べますか？",
+        "开头索引": 0,
+        "末尾索引": 2
+      },
+      {
+        "目标词": "Mo",
+        "句子": "他好像在吃mo水果。",
+        "开头索引": 5,
+        "末尾索引": 7
+      },
+      {
+        "目标词": "Arai",
+        "句子": "维吾尔语：ular birɛr iʃni mɛslihɛt qiliʃivatidu.",
+        "开头索引": 7,
+        "末尾索引": 9
+      },
+      {
+        "目标词": "Litt",
+        "句子": "Har du lyst pa litt frukt?",
+        "开头索引": 15,
+        "末尾索引": 19
+      },
+      {
+        "目标词": "Mo",
+        "句子": "Det ser ut som at han spiser en slags frukt.",
+        "开头索引": 13,
+        "末尾索引": 14
+      },
+      {
+        "目标词": "Sedikit/sesuatu",
+        "句子": "Kamu nak makan sedikit sayur?",
+        "开头索引": 15,
+        "末尾索引": 22
+      },
+      {
+        "目标词": "Sedikit/sesuatu",
+        "句子": "Dia macam sedang makan sesuatu sayur.",
+        "开头索引": 23,
+        "末尾索引": 30
+      }
+    ],
+    "贬低": [
+      {
+        "目标词": "什么",
+        "句子": "什么：汉语：你应该有点自尊心吧。",
+        "开头索引": 0,
+        "末尾索引": 2
+      },
+      {
+        "目标词": "什么",
+        "句子": "我不需要什么自尊心。",
+        "开头索引": 4,
+        "末尾索引": 6
+      },
+      {
+        "目标词": "なんて",
+        "句子": "なんて：日语：あなたはプライドを持つべきだ。",
+        "开头索引": 0,
+        "末尾索引": 3
+      },
+      {
+        "目标词": "なんて",
+        "句子": "私にはプライドなんて必要ないよ。",
+        "开头索引": 7,
+        "末尾索引": 10
+      },
+      {
+        "目标词": "麽咯",
+        "句子": "我要麽咯自尊心喽！",
+        "开头索引": 2,
+        "末尾索引": 4
+      }
+    ],
+    "对象任指": [
+      {
+        "目标词": "什么",
+        "句子": "我什么都吃。",
+        "开头索引": 1,
+        "末尾索引": 3
+      },
+      {
+        "目标词": "什么",
+        "句子": "不管/无论是什么，我都吃。",
+        "开头索引": 6,
+        "末尾索引": 8
+      },
+      {
+        "目标词": "么子",
+        "句子": "我么子都吃。",
+        "开头索引": 1,
+        "末尾索引": 3
+      },
+      {
+        "目标词": "Arai",
+        "句子": "Arai ko kin.",
+        "开头索引": 0,
+        "末尾索引": 4
+      },
+      {
+        "目标词": "Arai",
+        "句子": "Arai ko kin mod.",
+        "开头索引": 0,
+        "末尾索引": 4
+      },
+      {
+        "目标词": "Arai",
+        "句子": "Maiwa arai, chan ko kin.",
+        "开头索引": 6,
+        "末尾索引": 10
+      },
+      {
+        "目标词": "Arai",
+        "句子": "Maiwa arai, chan kin mod.",
+        "开头索引": 6,
+        "末尾索引": 10
+      },
+      {
+        "目标词": "Apapun",
+        "句子": "Apapun saya makan.",
+        "开头索引": 0,
+        "末尾索引": 6
+      },
+      {
+        "目标词": "Apapun",
+        "句子": "Apapun itu, pasti saya makan.",
+        "开头索引": 0,
+        "末尾索引": 6
+      },
+      {
+        "目标词": "Nemɛ",
+        "句子": "hɛr nemi/nemɛ/hetʃnemɛ/nemɛ ... qɛtijnɛzɛr：维吾尔语：bu maɡizindahɛr nemilɛr bar.",
+        "开头索引": 9,
+        "末尾索引": 13
+      },
+      {
+        "目标词": "Nemɛ",
+        "句子": "qelividin baʃɡa nemɛ bolsa bolidu.",
+        "开头索引": 16,
+        "末尾索引": 20
+      },
+      {
+        "目标词": "Nemɛ",
+        "句子": "Epsuski, hetʃnemɛ tʃiqmidi hetʃbir øzɡinʃɛr bolmidi.",
+        "开头索引": 13,
+        "末尾索引": 17
+      },
+      {
+        "目标词": "Allinemilɛmi/neminidu/bir nemɛ",
+        "句子": "u bazarin bir nemɛ eliʃini oilap, uzaq vaqit ailanʁan bolsimu hetʃnemɛ alalmidi.",
+        "开头索引": 10,
+        "末尾索引": 18
+      },
+      {
+        "目标词": "Nemɛ",
+        "句子": "nemɛ dijidin qɛtijnɛzɛr tʃoqum ojliniʃ arqiliq andin eʁiz itʃiʃ kerɛk.",
+        "开头索引": 0,
+        "末尾索引": 4
+      }
+    ],
+    "性质任指": [
+      {
+        "目标词": "arai",
+        "句子": "Ponlamai arai chan ko kin mod.",
+        "开头索引": 9,
+        "末尾索引": 13
+      },
+      {
+        "目标词": "Apapun",
+        "句子": "Buah apapun saya makan.",
+        "开头索引": 5,
+        "末尾索引": 11
+      },
+      {
+        "目标词": "",
+        "句子": "hɛr qandaq/qandaq/hetʃqandaq/qandaq ... qɛtijnɛzɛr：维吾尔语：man saŋahɛr qandaq iʃni bidʒirip berɛlɛjmɛn.",
+        "开头索引": -1,
+        "末尾索引": -1
+      },
+      {
+        "目标词": "",
+        "句子": "bu qetimqi tuʁulʁan kynyŋdɛ qandaq mehman tʃaqirsaŋmu boliveridu.",
+        "开头索引": -1,
+        "末尾索引": -1
+      },
+      {
+        "目标词": "",
+        "句子": "bir jildin bujan, u hetʃqandaq maqalini inlan qilmiʁan.",
+        "开头索引": -1,
+        "末尾索引": -1
+      },
+      {
+        "目标词": "Mo",
+        "句子": "u qandaq nɛrsɛ eliʃtin qɛtijnɛzɛr daim ɛŋ jaxʃni allajdu.",
+        "开头索引": 37,
+        "末尾索引": 38
+      },
+      {
+        "目标词": "apa",
+        "句子": "apa-apa sayur pun saya makan.",
+        "开头索引": 0,
+        "末尾索引": 3
+      },
+      {
+        "目标词": "apa",
+        "句子": "Tak kira sayur apa, saya juga makan.",
+        "开头索引": 15,
+        "末尾索引": 18
+      }
+    ],
+    "对象承指": [
+      {
+        "目标词": "什么",
+        "句子": "你想吃什么就吃什么吧。",
+        "开头索引": 3,
+        "末尾索引": 5
+      },
+      {
+        "目标词": "啥",
+        "句子": "你想吃啥[sa]就吃啥[sa]吧。",
+        "开头索引": 3,
+        "末尾索引": 4
+      },
+      {
+        "目标词": "啥子",
+        "句子": "你想吃啥子就吃啥子。",
+        "开头索引": 3,
+        "末尾索引": 5
+      },
+      {
+        "目标词": "Arai",
+        "句子": "Chan kin arai, Ter ko kinannan.",
+        "开头索引": 9,
+        "末尾索引": 13
+      },
+      {
+        "目标词": "gì / cái - cái đó",
+        "句子": "Hôm nay tôi mời, bạn muốn ăn gì / cái gì thì sē ăn cái đó nhé!",
+        "开头索引": 29,
+        "末尾索引": 31
+      },
+      {
+        "目标词": "孰-之",
+        "句子": "孰杀子产，吾其与之！",
+        "开头索引": 0,
+        "末尾索引": 1
+      }
+    ],
+    "性质承指": [
+      {
+        "目标词": "什么",
+        "句子": "你想吃什么水果就吃什么水果吧。",
+        "开头索引": 3,
+        "末尾索引": 5
+      },
+      {
+        "目标词": "啥",
+        "句子": "你想吃啥[sa]水果就吃啥[sa]水果吧。",
+        "开头索引": 3,
+        "末尾索引": 4
+      },
+      {
+        "目标词": "啥子",
+        "句子": "你想吃啥子水果就吃啥子水果。",
+        "开头索引": 3,
+        "末尾索引": 5
+      }
+    ],
+    "举例": [
+      {
+        "目标词": "jiege",
+        "句子": "我喜欢吃水果，比如jiege苹果、香蕉。",
+        "开头索引": 9,
+        "末尾索引": 14
+      },
+      {
+        "目标词": "乜嘢",
+        "句子": "我钟意食水果，好似乜嘢苹果啊、香蕉啊。",
+        "开头索引": 9,
+        "末尾索引": 11
+      }
+    ],
+    "举例未尽": [
+      {
+        "目标词": "",
+        "句子": "汉语普通话：我喜欢吃水果，像苹果、香蕉那些。",
+        "开头索引": -1,
+        "末尾索引": -1
+      },
+      {
+        "目标词": "啥子",
+        "句子": "我喜欢吃水果，像啥子苹果、香蕉这些/那些。",
+        "开头索引": 8,
+        "末尾索引": 10
+      },
+      {
+        "目标词": "么子",
+        "句子": "我喜欢水果，比如香蕉、苹果么子。",
+        "开头索引": 13,
+        "末尾索引": 15
+      }
+    ],
+    "命题否定": [
+      {
+        "目标词": "什么",
+        "句子": "什么日本人，我是中国人。",
+        "开头索引": 0,
+        "末尾索引": 2
+      },
+      {
+        "目标词": "무슨",
+        "句子": "일본 사람은 무슨, 나는 중국 사람이야.",
+        "开头索引": 7,
+        "末尾索引": 9
+      },
+      {
+        "目标词": "Mitä",
+        "句子": "Mitä japanilainen? Olen Kiinalainen.",
+        "开头索引": 0,
+        "末尾索引": 4
+      }
+    ],
+    "内容否定": [
+      {
+        "目标词": "什么",
+        "句子": "什么老师，不像话。",
+        "开头索引": 0,
+        "末尾索引": 2
+      },
+      {
+        "目标词": "무슨",
+        "句子": "무슨 선생님이, 말도 안 된다.",
+        "开头索引": 0,
+        "末尾索引": 2
+      },
+      {
+        "目标词": "嘛",
+        "句子": "这是嘛老师，不像话。",
+        "开头索引": 2,
+        "末尾索引": 3
+      }
+    ],
+    "不及物否定": [
+      {
+        "目标词": "何",
+        "句子": "何走ってるの！",
+        "开头索引": 0,
+        "末尾索引": 1
+      },
+      {
+        "目标词": "Jiamejie",
+        "句子": "跑jiamejie！nge跑！",
+        "开头索引": 1,
+        "末尾索引": 9
+      }
+    ],
+    "及物否定": [
+      {
+        "目标词": "무슨",
+        "句子": "（먹긴） 무슨 밥을 먹어! 먹지 마.",
+        "开头索引": 5,
+        "末尾索引": 7
+      },
+      {
+        "目标词": "麽咯",
+        "句子": "呷麽咯饭咯，莫呷哩。",
+        "开头索引": 1,
+        "末尾索引": 3
+      }
+    ],
+    "属性否定": [
+      {
+        "目标词": "什么",
+        "句子": "贵什么！不贵！",
+        "开头索引": 1,
+        "末尾索引": 3
+      },
+      {
+        "目标词": "무엇이(무엇이/뭐가)",
+        "句子": "비싸긴 무엇이(무엇이/뭐가)(비싸)요!",
+        "开头索引": 4,
+        "末尾索引": 15
+      },
+      {
+        "目标词": "Cosa",
+        "句子": "Ma caro cosa! Non e'affatto caro.",
+        "开头索引": 8,
+        "末尾索引": 12
+      }
+    ],
+    "事物感叹": [
+      {
+        "目标词": "What",
+        "句子": "What a man!",
+        "开头索引": 0,
+        "末尾索引": 4
+      },
+      {
+        "目标词": "Was fuer",
+        "句子": "Was fuer einen Mann!",
+        "开头索引": 0,
+        "末尾索引": 8
+      },
+      {
+        "目标词": "Che",
+        "句子": "Che uomo!",
+        "开头索引": 0,
+        "末尾索引": 3
+      },
+      {
+        "目标词": "For",
+        "句子": "for en mann!",
+        "开头索引": 0,
+        "末尾索引": 3
+      },
+      {
+        "目标词": "Thật",
+        "句子": "Thật đàn ông!",
+        "开头索引": 0,
+        "末尾索引": 4
+      }
+    ],
+    "属性感叹": [
+      {
+        "目标词": "Was fuer",
+        "句子": "Was fuer ein schooner Tag!",
+        "开头索引": 0,
+        "末尾索引": 8
+      },
+      {
+        "目标词": "Che",
+        "句子": "Che bei fiori!",
+        "开头索引": 0,
+        "末尾索引": 3
+      },
+      {
+        "目标词": "for",
+        "句子": "for en vakker dag!",
+        "开头索引": 0,
+        "末尾索引": 3
+      },
+      {
+        "目标词": "Thật",
+        "句子": "Thật là một ngày đẹp trời!",
+        "开头索引": 0,
+        "末尾索引": 4
+      }
+    ],
+    "关系代词": [
+      {
+        "目标词": "What",
+        "句子": "What I like is playing basketball.",
+        "开头索引": 0,
+        "末尾索引": 4
+      },
+      {
+        "目标词": "Was",
+        "句子": "Was Ich mag ist Basketball spielen.",
+        "开头索引": 0,
+        "末尾索引": 3
+      },
+      {
+        "目标词": "Arai",
+        "句子": "Arai ti Tuechob, chan ko chob.",
+        "开头索引": 0,
+        "末尾索引": 4
+      },
+      {
+        "目标词": "Apa",
+        "句子": "Apa yang saya suka ialah kangkung.",
+        "开头索引": 0,
+        "末尾索引": 3
+      }
+    ]
+  },
+  "单独定义": {
+    "对象疑问": "Interrogative word in subject/object position.",
+    "性质疑问": "Interrogative word in attributive position.",
+    "对象虚指": "Indefinite pronoun in subject/object position.",
+    "性质虚指": "Indefinite expression in attributive position.",
+    "贬低": "Pejorative/depreciative tone.",
+    "对象任指": "Pronoun with universal/free-choice meaning in subject/object position.",
+    "性质任指": "Universal/free-choice element in attributive position.",
+    "对象承指": "Anaphoric reference to the preceding text in subject/object position.",
+    "性质承指": "Anaphoric reference to the preceding text in attributive position.",
+    "举例": "",
+    "举例未尽": "",
+    "命题否定": "Negates the extension of a proposition.",
+    "内容否定": "Negates the intension/content of a thing.",
+    "不及物否定": "Negates an intransitive verb.",
+    "及物否定": "Negates a transitive verb.",
+    "属性否定": "Negates an adjective.",
+    "事物感叹": "Exclamation that directly modifies a nominal expression.",
+    "属性感叹": "Exclamation with a descriptive element.",
+    "关系代词": "Relative pronoun."
+  },
+  "简单综合": {
+    "对象疑问": "定义：Interrogative word in subject/object position.\n例句：你吃什么？；何食べる？；uniŋʁa nemimu dɛjmɛn?；뭐 먹을래?；Bạn ăn gì/ cái gì?；Essen Sie etwas?",
+    "性质疑问": "定义：Interrogative word in attributive position.\n例句：你吃什么水果？；何の果物食べる？；siz nemɛ kitab kørdiŋiz?；너는 무슨 과일을 먹니?；Bạn ăn hoa quả gì?；Möchtest Du etwas Obstessen?",
+    "对象虚指": "定义：Indefinite pronoun in subject/object position.\n例句：你吃点什么吗？；何か食べますか？；他好像在吃mo si。；Ular allinemilɛmi dejiʃkinitʃɛ  ojdin tʃiqip ketiʃti.；u neminidu ɛslɛp bir uluʁ-kitʃik tinivetip jɛnɛ søzini davamlaʃturdi.；u bazardin bir nemɛ eliʃini oilap, uzaq vaqit ailanʁan bolsimu hetʃnemɛ alalmidi.；Hva har du lyst til a spise?；Det serut som at han spise noe.；Apa yang kam u nak makan?；Saya sudah lapar, ingin makan sesuatu.",
+    "性质虚指": "定义：Indefinite expression in attributive position.\n例句：你吃点什么水果吗？；何か果物食べますか？；他好像在吃mo水果。；维吾尔语：ular birɛr iʃni mɛslihɛt qiliʃivatidu.；Har du lyst pa litt frukt?；Det ser ut som at han spiser en slags frukt.；Kamu nak makan sedikit sayur?；Dia macam sedang makan sesuatu sayur.",
+    "贬低": "定义：Pejorative/depreciative tone.\n例句：什么：汉语：你应该有点自尊心吧。；我不需要什么自尊心。；なんて：日语：あなたはプライドを持つべきだ。；私にはプライドなんて必要ないよ。；我要麽咯自尊心喽！",
+    "对象任指": "定义：Pronoun with universal/free-choice meaning in subject/object position.\n例句：我什么都吃。；不管/无论是什么，我都吃。；我么子都吃。；Arai ko kin.；Arai ko kin mod.；Maiwa arai, chan ko kin.；Maiwa arai, chan kin mod.；Apapun saya makan.；Apapun itu, pasti saya makan.；hɛr nemi/nemɛ/hetʃnemɛ/nemɛ ... qɛtijnɛzɛr：维吾尔语：bu maɡizindahɛr nemilɛr bar.；qelividin baʃɡa nemɛ bolsa bolidu.；Epsuski, hetʃnemɛ tʃiqmidi hetʃbir øzɡinʃɛr bolmidi.；u bazarin bir nemɛ eliʃini oilap, uzaq vaqit ailanʁan bolsimu hetʃnemɛ alalmidi.；nemɛ dijidin qɛtijnɛzɛr tʃoqum ojliniʃ arqiliq andin eʁiz itʃiʃ kerɛk.",
+    "性质任指": "定义：Universal/free-choice element in attributive position.\n例句：Ponlamai arai chan ko kin mod.；Buah apapun saya makan.；hɛr qandaq/qandaq/hetʃqandaq/qandaq ... qɛtijnɛzɛr：维吾尔语：man saŋahɛr qandaq iʃni bidʒirip berɛlɛjmɛn.；bu qetimqi tuʁulʁan kynyŋdɛ qandaq mehman tʃaqirsaŋmu boliveridu.；bir jildin bujan, u hetʃqandaq maqalini inlan qilmiʁan.；u qandaq nɛrsɛ eliʃtin qɛtijnɛzɛr daim ɛŋ jaxʃni allajdu.；apa-apa sayur pun saya makan.；Tak kira sayur apa, saya juga makan.",
+    "对象承指": "定义：Anaphoric reference to the preceding text in subject/object position.\n例句：你想吃什么就吃什么吧。；你想吃啥[sa]就吃啥[sa]吧。；你想吃啥子就吃啥子。；Chan kin arai, Ter ko kinannan.；Hôm nay tôi mời, bạn muốn ăn gì / cái gì thì sē ăn cái đó nhé!；孰杀子产，吾其与之！",
+    "性质承指": "定义：Anaphoric reference to the preceding text in attributive position.\n例句：你想吃什么水果就吃什么水果吧。；你想吃啥[sa]水果就吃啥[sa]水果吧。；你想吃啥子水果就吃啥子水果。",
+    "举例": "例句：我喜欢吃水果，比如jiege苹果、香蕉。；我钟意食水果，好似乜嘢苹果啊、香蕉啊。",
+    "举例未尽": "例句：汉语普通话：我喜欢吃水果，像苹果、香蕉那些。；我喜欢吃水果，像啥子苹果、香蕉这些/那些。；我喜欢水果，比如香蕉、苹果么子。",
+    "命题否定": "定义：Negates the extension of a proposition.\n例句：什么日本人，我是中国人。；일본 사람은 무슨, 나는 중국 사람이야.；Mitä japanilainen? Olen Kiinalainen.",
+    "内容否定": "定义：Negates the intension/content of a thing.\n例句：什么老师，不像话。；무슨 선생님이, 말도 안 된다.；这是嘛老师，不像话。",
+    "不及物否定": "定义：Negates an intransitive verb.\n例句：何走ってるの！；跑jiamejie！nge跑！",
+    "及物否定": "定义：Negates a transitive verb.\n例句：（먹긴） 무슨 밥을 먹어! 먹지 마.；呷麽咯饭咯，莫呷哩。",
+    "属性否定": "定义：Negates an adjective.\n例句：贵什么！不贵！；비싸긴 무엇이(무엇이/뭐가)(비싸)요!；Ma caro cosa! Non e'affatto caro.",
+    "事物感叹": "定义：Exclamation that directly modifies a nominal expression.\n例句：What a man!；Was fuer einen Mann!；Che uomo!；for en mann!；Thật đàn ông!",
+    "属性感叹": "定义：Exclamation with a descriptive element.\n例句：Was fuer ein schooner Tag!；Che bei fiori!；for en vakker dag!；Thật là một ngày đẹp trời!",
+    "关系代词": "定义：Relative pronoun.\n例句：What I like is playing basketball.；Was Ich mag ist Basketball spielen.；Arai ti Tuechob, chan ko chob.；Apa yang saya suka ialah kangkung."
+  }
+}
