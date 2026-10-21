@@ -13,7 +13,7 @@ This repository releases the **OCSMST benchmark dataset** and the **code** used 
 ```
 OCSMST/
 ├── DATASET_EN/          # Benchmark dataset (English), 10 Excel files
-├── DATASET_ZH/          # Benchmark dataset (Chinese), 12 Excel files
+├── DATASET_ZH/          # Benchmark dataset (Chinese), 10 Excel files
 ├── CODE/
 │   ├── app.py           # Flask web application (interactive semantic map tool)
 │   ├── SMM.py           # Semantic map model: candidate generation, fusion, evaluation
